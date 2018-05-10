@@ -130,7 +130,7 @@ private static void CountVowelWords(string filePath)
             Console.WriteLine($"{count} {arrayOfWords[0].ToLower()}");
         }
         
-        //Remove words from the array once they have been '"read", 
+        //Remove words from the array once they have been "read", 
         //along with the space at the end of the word.
         fileText = string.Join(' ', arrayOfWords);
         fileText = fileText.Replace(arrayOfWords[0] + " ", null);
